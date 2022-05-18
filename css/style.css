@@ -19,15 +19,15 @@ input{
     height: 40px;
     box-sizing: border-box;
 }
-form{
+#form{
     width: 40%;
 }
-#soma:hover{
+button:hover{
     cursor: pointer;
     background-color: #055e05;
     color: white;
 }
-#soma{
+button{
     background-color: green;
     color: #fff;
     border: none;

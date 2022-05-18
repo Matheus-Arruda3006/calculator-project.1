@@ -13,17 +13,17 @@
     </header>
 
 
-    <form action="">
-        <input type="number" id="calcu" placeholder="Digite o primeiro número..."> <br> <br>
+    <div id="form">
+        <input type="number" id="n1" placeholder="Digite o primeiro número..."> <br> <br>
         <select id="selector">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">x</option>
-            <option value="/">÷</option>
+            <option value="/">/</option>
         </select> <br> <br>
-        <input type="number" id="calcu-2" placeholder="Digite o segundo número..."> <br> <br>
-        <button id="soma">calcular</button>
-    </form>
+        <input type="number" id="n2" placeholder="Digite o segundo número..."> <br> <br>
+        <button onclick="calcular()">calcular</button>
+    </div>
     <div>
         <h3 id="resultado"></h3>
     </div>
